@@ -1,0 +1,20 @@
+.home__hero{
+    width: 100vw;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(198, 25, 25);
+    padding: 1rem 0;
+}
+.home__hero p{
+    width: 70%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.home__hero a{
+    text-decoration: none;
+}

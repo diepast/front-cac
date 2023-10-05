@@ -1,0 +1,24 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2vw;
+  width: 80vw;
+  height: 50vh;
+  user-select: none;
+  background-color: rgb(198, 25, 25);
+  &__img {
+    width: 70%;
+    height: 100%;
+  }
+  &__arrow {
+    font-size: 5rem;
+    cursor: pointer;
+  }
+  h2 {
+    width: 70%;
+    text-align: center;
+  }
+
+  padding: 1rem;
+}
